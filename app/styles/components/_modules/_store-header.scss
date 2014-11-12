@@ -1,0 +1,32 @@
+/**
+*
+* store header
+*
+**/
+
+.store-header {
+  text-align: center;
+
+  .breadcrumbs {
+    text-align: left;
+    color: $colorBlue;
+
+    a {
+      color: $colorBlue;
+    }
+  }
+
+  h3 {
+    color: $colorGrayDark;
+    padding-top: $lineHeight * 2;
+  }
+}
+
+.store-header__excerpt {
+  position: relative;
+  padding-top: 0;
+
+  &:last-child {
+    padding-bottom: $lineHeight * 3;
+  }
+}

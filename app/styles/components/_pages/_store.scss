@@ -1,0 +1,50 @@
+/**
+*
+* Styleguide
+*
+**/
+
+.page--store {
+
+  .store__module-title {
+    margin-bottom: $lineHeight;
+  }
+
+  section {
+    margin-bottom: $lineHeight*2;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: $lineHeight*3 - 1;
+
+  }
+
+  .store__color-list {
+    text-align: center;
+
+    li {
+      border-bottom: $lineHeight*2 solid;
+      margin-bottom: $lineHeight;
+      position: relative;
+    }
+  }
+
+  .store__breadcrumb .breadcrumbs{
+    display: block;
+  }
+
+  .store__lists {
+    ul,
+    ol {
+      margin-bottom: $lineHeight;
+    }
+  }
+
+  .store__inverted-block {
+    background: #e8e8e8;
+    padding: 0 13px;
+  }
+
+  .store__theme-block {
+    background: $colorLayouts;
+    padding: 0 13px;
+  }
+}
